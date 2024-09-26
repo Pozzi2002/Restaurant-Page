@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'grand';
+    src: url('grandhotel-regular-webfont.woff2') format('woff2'),
+         url('grandhotel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'great';
+    src: url('greatvibes-regular-webfont.woff2') format('woff2'),
+         url('greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kaushan';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 200vh;
+    background: url(./steak.jpg) repeat center;
+    background-position: bottom;
+    width: 100%;
+    background-size: auto 110%;
+    /* background-position: center; */
+}
+nav {
+    background-color: black;
+    opacity: 0.7;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    width: 100%;
+    position: fixed;
+}
+nav button {
+    height: 2.2rem;
+    width: 6rem;
+    border-bottom: 0px;
+    background: none;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "great";
+}
+nav button:hover {
+    text-decoration: underline
+}
+nav button:active {
+    position: relative;
+    top: 2px;
+}
+#content {
+    margin-left: 17rem;
+    margin-right: 17rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    
+}
+#content h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "great";
+    font-size: 2.4rem;
+    margin: 1rem;
+}
+#content p {
+    display: flex;
+    justify-content: start;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: "Serif"
+}
+#content img {
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    padding: 5px;
+}
+iframe {
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+    border: 0;
+}
